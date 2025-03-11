@@ -54,6 +54,14 @@
             padding: 10px;
             margin-top: 20px;
         }
+   .blink {
+      animation: blinker 1s step-start infinite;
+   }
+  @keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
     </style>
 </head>
 <body>
@@ -81,7 +89,7 @@
         <div class="section">
             <h2>DATE: 29th April 2025 and 30th April 2025</h2>
             <h3>VENUE: BIST CAMPUS, BHOPAL</h3>
-            <p>Showcase Your Skills and Creativity</p>
+            <p class="blink">Showcase Your Skills and Creativity</p>
             <h3>PRIZE WORTH Rs 51,000/-</h3>
         </div>
 
